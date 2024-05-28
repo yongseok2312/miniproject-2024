@@ -1,4 +1,5 @@
-﻿using MahApps.Metro.Controls;
+﻿using LiveCharts.Defaults;
+using MahApps.Metro.Controls;
 using SmartHomeMonitoringApp.Logics;
 using System;
 using System.Collections.Generic;
@@ -31,5 +32,21 @@ namespace SmartHomeMonitoringApp.Views
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
         }
+        private static void SetStyle(
+        double sectionsOuter, double sectionsWidth, PieSeries<ObservableValue> series)
+        {
+            series.OuterRadiusOffset = sectionsOuter;
+            series.MaxRadialColumnWidth = sectionsWidth;
+        }
+
     }
+    
+
+
+
+
+
+
 }
+
+
