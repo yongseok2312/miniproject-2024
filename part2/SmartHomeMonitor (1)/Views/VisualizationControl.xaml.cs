@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -35,6 +36,8 @@ namespace SmartHomeMonitoringApp.Views
         // 검색버튼 클릭 이벤트 핸들러
         private async void BtnSearch_Click(object sender, RoutedEventArgs e)
         {
+            using (SqlConnection conn = new SqlConnection(Common)
+
         }
     }
 }

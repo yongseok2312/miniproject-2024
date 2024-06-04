@@ -71,6 +71,8 @@ namespace SmartHomeMonitoringApp
 
         private void MnuVisualizationMon_Click(object sender, RoutedEventArgs e)
         {
+            ActiveItem.Content = new Views.VisualizationControl();
+            StsSelScreen.Content = "시각화 모니터링";
         }
 
         private void MnuAbout_Click(object sender, RoutedEventArgs e)

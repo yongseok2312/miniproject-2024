@@ -161,5 +161,10 @@ namespace SmartHomeMonitoringApp.Views
         {
             ConnectSystemAsync();
         }
+
+        private void TxtConnString_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

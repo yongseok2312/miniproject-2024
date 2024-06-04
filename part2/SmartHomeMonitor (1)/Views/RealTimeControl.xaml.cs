@@ -1,5 +1,4 @@
-﻿using LiveCharts.Defaults;
-using MahApps.Metro.Controls;
+﻿using MahApps.Metro.Controls;
 using SmartHomeMonitoringApp.Logics;
 using System;
 using System.Collections.Generic;
@@ -38,7 +37,6 @@ namespace SmartHomeMonitoringApp.Views
             series.OuterRadiusOffset = sectionsOuter;
             series.MaxRadialColumnWidth = sectionsWidth;
         }
-
     }
     
 

@@ -49,7 +49,7 @@
         <TextBlock Grid.Row="1" Grid.Column="1" x:Name="TxtMqttTopic" Text="Sample Broker IP"
            FontSize="14" VerticalAlignment="Center" Margin="10,0"/>
         <TextBox Grid.Row="2" Grid.Column="1" x:Name="TxtConnString" Text="SQL server 연결 문자열"
-                 FontSize="14" VerticalAlignment="Center" Margin="10,0"/>
+                 FontSize="14" VerticalAlignment="Center" Margin="10,0" TextChanged="TxtConnString_TextChanged"/>
         <ToggleButton Grid.Row="3" Grid.Column="1" x:Name="BtnConnect" Content="Connect" Width="150"
                       HorizontalAlignment="Left" Margin="10,5" IsChecked="False"
                       Style="{StaticResource MahApps.Styles.ToggleButton.Flat}" Click="BtnConnect_Click"/>

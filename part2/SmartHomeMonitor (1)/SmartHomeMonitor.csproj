@@ -208,6 +208,7 @@
     <Compile Include="Views\DataBaseControl.xaml.cs">
       <DependentUpon>DataBaseControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\PieSeries.cs" />
     <Compile Include="Views\RealTimeControl.xaml.cs">
       <DependentUpon>RealTimeControl.xaml</DependentUpon>
     </Compile>
